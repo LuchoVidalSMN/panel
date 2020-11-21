@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Curso Radar CRF</title>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+  <style>
+  /* Set height of the grid so .sidenav can be 100% (adjust if needed)
+    .row.content {height: 1500px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+
+      }
+      .row.content {height: auto;}
+    }
+	  .panel {font-family:Roboto Condensed;
+	  background-color:#d1cfc9;}
+	  .col-xs-2 {font-family:Roboto Condensed;}
+	  .panel-heading {font-family:Roboto Condensed;
+	  font-weight: bold;
+	  background-color:#0d0d0c;}
+    .panel-default>.panel-heading {
+    color: #333;
+    background-color: #0d0d0c;
+    border-color: #36342f;
+
+	}
+	.panel-default {
+    color: #333;
+    background-color: #0d0d0c;
+    border-color: #36342f;
+
+    }
+    .panel-collapse {
+    color: #333;
+    background-color: #36342f;
+    border-color: #36342f;
+
+    }
+
+    .list-group-item {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: -1px;
+    background-color: #36342f;
+    border: 1px solid #36342f;
+	line-height: 95%
+}
+    body {
+    background-color:#36342f}
+	a {
+	color:#bfbfbf;
+	}
+
+  </style>
+  <link rel="shortcut icon" href="../ico.ico" type="image/vnd.microsoft.icon">
+</head>
+<body oncontextmenu="return false"  >
+
+  <div class="container-fluid" style="background-color:#262626; ">
+    
+ <div style="background-color:#262626; color:#ffffff">
+			<p> </p>
+			<h5 style="font-family:Roboto Condensed;text-align: -webkit-center;">CASOS DE ESTUDIO - SIMULADOR</h5>
+			<p> </p>
+			</div>
+
+
+<div class="container text-center" style="width:1500px; background-color:#7d776b">
+
+    <div class="col-xs-2" style="        height: auto;background-color:#7d776b;">
+	
+			
+
+           <p></p>
+
+<a href="https://sites.google.com/site/crfpar3/" target="_blank"><img src="crdf_fondo_transparente.moodle.png" width="100%" height="100%" class="img-rounded"></a>
+
+<h1><img src="TECLADO3.png" width="90%" height="90%" class="img-rounded"><b> </b></h1>
+	   <div style="color: black"><h6><p>USE EL TECLADO PARA ANIMAR LAS IMAGENES Y EL MOUSE PARA EL ZOOM</p></h6></div>
+
+
+
+  <div class="panel-group" id="menu">
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#menu" href="#Caso1"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 1
+        </h4>
+      </div></a>
+      <div id="Caso1" class="panel-collapse collapse">
+        <ul class="list-group">
+ 		  <a href="Caso1/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso1/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso1/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso1/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+      <a data-toggle="collapse" data-parent="#menu" href="#Caso2"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 2
+        </h4>
+      </div></a>
+      <div id="Caso2" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso2/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso2/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso2/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso2/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+      
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso3"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 3
+        </h4>
+      </div></a>
+      <div id="Caso3" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso3/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso3/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso3/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso3/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso4"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 4
+        </h4>
+      </div></a>
+      <div id="Caso4" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso4/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso4/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso4/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso4/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso5"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 5
+        </h4>
+      </div></a>
+      <div id="Caso5" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso5/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso5/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso5/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso5/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		    
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso6"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 6
+        </h4>
+      </div></a>
+      <div id="Caso6" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso6/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso6/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso6/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso6/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso7"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 7
+        </h4>
+      </div></a>
+      <div id="Caso7" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso7/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso7/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso7/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso7/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso8"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 8
+        </h4>
+      </div></a>
+      <div id="Caso8" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso8/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso8/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso8/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso8/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso9"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 9
+        </h4>
+      </div></a>
+      <div id="Caso9" class="panel-collapse collapse">
+        <ul class="list-group">
+  				  <a href="Caso9/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso9/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso9/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso9/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso10"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 10
+        </h4>
+      </div></a>
+      <div id="Caso10" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso10/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso10/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso10/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso10/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	  	       <a data-toggle="collapse" data-parent="#menu" href="#Caso11"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 11
+        </h4>
+      </div></a>
+      <div id="Caso11" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso11/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso11/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso11/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso11/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+	       <a data-toggle="collapse" data-parent="#menu" href="#Caso12"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 12
+        </h4>
+      </div></a>
+      <div id="Caso12" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso12/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso12/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso12/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso12/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+      
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso13"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 13
+        </h4>
+      </div></a>
+      <div id="Caso13" class="panel-collapse collapse">
+        <ul class="list-group">
+ 				  <a href="Caso13/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso13/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso13/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+ 		  <a href="Caso13/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		    
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso14"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 14
+        </h4>
+      </div></a>
+      <div id="Caso14" class="panel-collapse collapse">
+        <ul class="list-group">
+ 	  <a href="Caso14/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso14/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso14/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+	 <a href="Caso14/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso15"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 15
+        </h4>
+      </div></a>
+      <div id="Caso15" class="panel-collapse collapse">
+        <ul class="list-group">
+ 	  <a href="Caso15/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso15/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso15/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+	 <a href="Caso15/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso16"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 16
+        </h4>
+      </div></a>
+      <div id="Caso16" class="panel-collapse collapse">
+        <ul class="list-group">
+  	  <a href="Caso16/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso16/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso16/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+	 <a href="Caso16/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso17"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 17
+        </h4>
+      </div></a>
+      <div id="Caso17" class="panel-collapse collapse">
+        <ul class="list-group">
+ 	  <a href="Caso17/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso17/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso17/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+	 <a href="Caso17/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		   
+        </ul>
+      </div>
+
+	        <a data-toggle="collapse" data-parent="#menu" href="#Caso18"><div class="panel-heading">
+        <h4 class="panel-title" style="color:white">
+          CASO 18
+        </h4>
+      </div></a>
+      <div id="Caso18" class="panel-collapse collapse">
+        <ul class="list-group">
+ 	  <a href="Caso18/Sup.html" target="someFrame"><li class="list-group-item"> <b>Análisis de Superficie</b></li></a>
+	<a href="Caso18/Sat.html" target="someFrame"><li class="list-group-item"><b>Img. Satelitales</b></li></a>
+	<a href="Caso18/Rad.html" target="someFrame"><li class="list-group-item"><b>Img. de Radar</b></li></a>
+	 <a href="Caso18/Ray.html" target="someFrame"><li class="list-group-item"><b>Descargas Eléctricas</b></li></a>		  
+		  
+        </ul>
+      </div>
+
+	
+
+
+
+
+
+
+
+    </div>
+    
+
+</div>
+
+
+
+
+	
+
+
+	  
+
+
+<p></p>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"  target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+
+    </div>
+
+
+    <div class="col-xs-10 text-center" style="background-color:#7d776b">
+<p style="font-family:Roboto Condensed"></p>
+      <iframe name="someFrame" id="someFrame" style="border:0px;width:100%;height:1600px; position: center;"  oncontextmenu="return false" onkeydown="return false"> </iframe>
+	  
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

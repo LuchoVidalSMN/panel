@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="../hanis_min.js"> </script>
+
+  <style>
+  	.btn-primary {
+    color: #fff;
+    background-color: #404040;
+    border-color: #262626;
+	font-family:Roboto Condensed;
+	width: fit-content;
+}
+</style>
+  
+
+</head>
+<body oncontextmenu="return false" style="background-color:#7d776b;" onload="HAniS.setup(
+'basename = SATELITE/topsa (*).jpg \n\
+num_frames = 13 \n\
+base_starting_number = 1, 1 \n\
+background_static=n \n\
+window_size = 900,835 \n\
+controls = annotate, first, backward, startstop, forward, last, speed, looprock, toggle \n\
+controls_style = display:flex;flex-flow:row; \n\
+dwell = 200 \n\
+pause = 1200 \n\
+startstop_labels =Animar,Pausar \n\
+speed_labels = - Velocidad, + Velocidad \n\
+toggle_size = 5,10,3 \n\
+check_image_size = f\n\
+toggle_colors = black, red, white \n\
+active_zoom = true \n\
+keep_zoom = true \n\
+image_preserve = 0,0,1930,20 \n\
+annotate_position = -50, 100 \n\
+buttons_style = flex:auto;margin:2px;width: fit-content;background:#ffcc00;border-color: #947a11;border-radius: 3px;font-family:Roboto Condensed; ', 'handiv')">
+<div align="center">
+<p> </p>
+<div class="btn-group btn-group-xs" >
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/topsa (*).jpg',1,1,13);document.getElementById('paleta').src='../cmap_topes.jpg'">Topes SA</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/topsa (*).jpg',1,1,13);document.getElementById('paleta').src='../cmap_topes.jpg'">-12hs</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/topsa (*).jpg',13,1,12);document.getElementById('paleta').src='../cmap_topes.jpg'">+3hs</button>
+
+	</div>
+
+	<div class="btn-group btn-group-xs" >
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/v09sa (*).jpg',1,1,13);document.getElementById('paleta').src='../cmap_vapor.jpg'">Vapor SA</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/v09sa (*).jpg',1,1,13);document.getElementById('paleta').src='../cmap_vapor.jpg'">-12hs</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/v09sa (*).jpg',13,1,12);document.getElementById('paleta').src='../cmap_vapor.jpg'">+3hs</button>
+
+
+	</div>
+		<div class="btn-group btn-group-xs" >
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/topcentro (*).jpg',1,1,13);document.getElementById('paleta').src='../cmap_topes.jpg'">Topes Sector Reducido</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/topcentro (*).jpg',1,1,13);document.getElementById('paleta').src='../cmap_topes.jpg'">-12hs</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/topcentro (*).jpg',13,1,13);document.getElementById('paleta').src='../cmap_topes.jpg'">+3hs</button>
+
+
+	</div>
+
+		<div class="btn-group btn-group-xs" >
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/c02centro (*).jpg',1,1,10);document.getElementById('paleta').src=''">Visible Sector Reducido</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/c02centro (*).jpg',1,1,10);document.getElementById('paleta').src=''">-12hs</button>
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('SATELITE/nodisp.jpg',1,1,1);document.getElementById('paleta').src=''">+3hs</button>
+
+
+	</div>
+
+<p></p>
+
+  <div id="handiv" style="width:800px;background-color:#7d776b;width: fit-content">
+  
+  </div>
+     <img id="paleta" src="../cmap_topes.jpg" >
+
+</div>
+  
+</body>
+</html>
+
+ 
